@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+	<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		img{
+			width: 25px;
+			height: 25px;
+			padding-top: 10px;
+			margin-right: 15px;
+		}
+		.tu1{
+			width:50px;
+			height: 50px;
+			display: flex;
+			background:skyblue;
+			transition: width 2s;
+		}
+		
+		.tu1:hover
+		{
+			width: 200px;
+		}
+		.tu2{
+			width:50px;
+			height: 50px;
+			display: flex;
+			background:green;
+			transition: width 2s;
+		
+		}
+		.tu2:hover
+		{
+			width: 200px;
+		}
+		p{
+			color:black;
+			overflow: hidden;
+			white-space: nowrap;
+			padding-top: 11px;
+			padding-left: 9px;
+		}
+	</style>
+  </head>
+  <body>
+	  <div class="tu2">
+		<p>学生 Student &emsp;&emsp;&emsp;&emsp;&emsp;</p>
+		<img src="js/student.png"/>
+		</div><hr />
+    <div class="tu1">
+		<p>访客 Vistor &emsp;&emsp;&emsp;&emsp;&emsp;</p>
+		<img src="js/earth.png"/>
+	</div><hr />
+
+  </body>
+</thml>
